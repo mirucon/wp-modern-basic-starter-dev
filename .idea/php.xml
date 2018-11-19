@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PSR1;PSR2;Squiz;WordPress;WordPress-Core;WordPress-Custom;WordPress-Docs;WordPress-Extra;WordPress-VIP;Zend" tool_path="phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/inc2734/wp-oembed-blog-card" />
+      <path value="$PROJECT_DIR$/vendor/inc2734/wp-like-me-box" />
+      <path value="$PROJECT_DIR$/vendor/inc2734/wp-breadcrumbs" />
+      <path value="$PROJECT_DIR$/vendor/inc2734/wp-share-buttons" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/vendor/wp-coding-standards/wpcs" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
